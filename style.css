@@ -42,10 +42,10 @@ background-repeat: no-repeat;
 color: white;
 font-family: interstate,Charcoal, sans-serif;
 text-align: center;
-letter-spacing: 20px;
+letter-spacing: 15px;
 font-size: 600%;
 line-height: 200%;
-font-weight: .01;
+font-weight: .001;
 vertical-align: middle;
 padding-bottom: 100px;
 padding-top: 100px;
@@ -53,12 +53,30 @@ padding-top: 100px;
 
 
 h3 {
-    color: orange;
+    color: #f28add;
     font-family: interstate,Charcoal, sans-serif;
     text-align: center;
     letter-spacing: 5px;
     font-size: 300%;
     line-height: 40px;
+}
+
+h4{
+    color: black;
+    font-family: interstate,sans-serif;
+    text-align: center;
+    font-weight: .01;
+    font-size: 150%;
+
+
+}
+
+h5{
+    color: black;
+    font-family: interstate, sans-serif;
+    text-align: center;
+
+
 }
 
 footer {
