@@ -23,7 +23,8 @@ nav {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom:5px;
 }
 
 a:link {color: black;
@@ -36,7 +37,7 @@ a:hover {color: #f28add;}
 a:active {color: #f28add;}
 
 
-h2 { background-image: url("http://shardsplaceholder.weebly.com/uploads/2/5/6/1/25614971/2111629_orig.png");
+h2 { background-image: url("./images/Import 6 137.JPG");
 background-size: cover;
 background-repeat: no-repeat;
 color: white;
@@ -47,8 +48,8 @@ font-size: 600%;
 line-height: 200%;
 font-weight: .001;
 vertical-align: middle;
-padding-bottom: 100px;
-padding-top: 100px;
+padding-bottom: 700px;
+padding-top: 700px;
 }
 
 
@@ -93,6 +94,22 @@ footer {
 iframe{
 margin:auto;
 padding:4em;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 html, body, body div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, header, hgroup, menu, section, time, mark, audio, video {
